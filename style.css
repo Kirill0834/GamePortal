@@ -1,14 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
+/*	font-size: 44px !important;
+}*{*/
+
 body{
 	margin: 0;
 	background-color: #181c23;
 	background-image: url(images/bg-top.png);
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+}
+a{
+	text-decoration: none;
+	color: #f0ece5;
 }
 .container{
 	margin: 0 auto;
 	width: 1110px;
 	justify-content: space-between;
-    display: flex;
 }
 .menu__top{
 	padding-bottom: 20px;
@@ -17,6 +25,9 @@ body{
 .social__links{
 	display: flex;
 	color: #181c23;
+}
+.social__links .btn-icon img{
+	width: 30px;
 }
 .user__menu{
 	max-width: 400px;
@@ -36,28 +47,28 @@ body{
 .features{
 	display: flex;
 	justify-content: space-between;
-	margin: 0 auto;
 	text-align: justify;
 	text-justify: newspaper;
-	width: 90%;
-	margin: 0 auto;
-	padding-top: 50px;
+	margin-top: 50px;
 }
 .features__block{
-	width: 300px;
 	background: #292e38;
+    flex-grow: 1;
+    margin-right: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.features__block:last-child{
+	margin-right: 0;
 }
 .features__block .features__block__icon{
-	overflow: hidden;
     text-align: center;
-    padding-right: 200px;
+    padding: 20px;
 }
 .features__text{
 	color: #f6f5f3;
-	text-align: center;
 	font-size: 25px;
-	position: relative;
-	bottom: 25px;
 }
 .main__menu{
 	background: #070607;
@@ -102,11 +113,23 @@ nav{
 }
 .one a {
   padding: 1em;
-  color: #f0ece5;
   font-size: 20px;
   line-height: 1px;
   font-weight: 400;
 }
 .one li {
   display: inline;
+}
+.slide_1{
+	height: 395px;
+	width: 100%;
+	border-radius: 5px;
+}
+.features__text span{
+	color: red;
+	display: block;
+
+}
+.main__menu_1{
+	display: flex;
 }
