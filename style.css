@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+body{
+	margin: 0;
+	background-color: #181c23;
+	background-image: url(images/bg-top.png);
+}
+.container{
+	margin: 0 auto;
+	width: 1110px;
+	justify-content: space-between;
+    display: flex;
+}
+.menu__top{
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+.social__links{
+	display: flex;
+	color: #181c23;
+}
+.user__menu{
+	max-width: 400px;
+	text-align: right;
+	display: flex;
+	padding: 0 15px;
+}
+.btn-icon{
+	padding: 0 5px;
+	background-color: #d1c9cb;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.btn-icon_1{
+		padding: 0 5px;
+}
+.features{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	text-align: justify;
+	text-justify: newspaper;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.features__block{
+	width: 300px;
+	background: #292e38;
+}
+.features__block .features__block__icon{
+	overflow: hidden;
+    text-align: center;
+    padding-right: 200px;
+}
+.features__text{
+	color: #f6f5f3;
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	bottom: 25px;
+}
+.main__menu{
+	background: #070607;
+	height: 120px;
+}
+.favicon{
+	margin-top: 40px;
+}
+h1{
+	color: white;
+	font-size: 30px;
+	position: relative;
+	left: 85px;
+	bottom: 75px;
+}
+.red_text_1{
+	color: red;
+}
+.red_text_2{
+	color: red;
+}
+ul {
+  list-style: none;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+}
+i {
+  margin-right: 10px;
+}
+nav{
+  padding-top: 45px;
+  display: block;
+  margin: 0 auto 30px;
+  float: right;
+  margin-right: 20px;
+}
+.one ul {
+  padding: 1em 0;
+}
+.one a {
+  padding: 1em;
+  color: #f0ece5;
+  font-size: 20px;
+  line-height: 1px;
+  font-weight: 400;
+}
+.one li {
+  display: inline;
+}
