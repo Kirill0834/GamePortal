@@ -77,13 +77,6 @@ a{
 .favicon{
 	margin-top: 40px;
 }
-h1{
-	color: white;
-	font-size: 30px;
-	position: relative;
-	left: 85px;
-	bottom: 75px;
-}
 .red_text_1{
 	color: red;
 }
@@ -132,4 +125,45 @@ nav{
 }
 .main__menu_1{
 	display: flex;
+}
+.latest_news{
+	padding-top: 50px;
+}
+.lest_news_block{
+	width: 580px;
+	background: #292e38;
+	display: flex;
+}
+.img_1{
+	width: 100px;
+	padding: 15px;
+	border-radius: 5px;
+}
+.big_text_in_block{
+	font-size: 20px;
+	color: white;
+}
+.small_text_in_block{
+	color: #646365;
+	filter: brightness(150%);
+}
+.data_post{
+	color: #646365;
+	filter: brightness(150%);
+}
+.right_news_block{
+	width: 500px;
+	background: #292e38;
+}
+.img_5{
+	width: 500px;
+	height: 300px;
+}
+.big_text_in_right_block{
+	color: white;
+	font-size: 20px;
+}
+.small_text_in_right_block{
+	color: #646365;
+	filter: brightness(150%);
 }
