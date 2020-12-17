@@ -167,3 +167,7 @@ nav{
 	color: #646365;
 	filter: brightness(150%);
 }
+
+.news_ {
+	display: flex;
+}
