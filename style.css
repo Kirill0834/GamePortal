@@ -1,6 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-
-
 .menu__top{
 	padding-bottom: 20px;
 	padding-top: 15px;
@@ -113,6 +111,7 @@ nav{
 }
 .news{
 	display: flex;
+	
 }
 .lest_news_block{
 	/*width: 580px;*/
@@ -154,4 +153,35 @@ nav{
 .small_text_in_right_block{
 	color: #646365;
 	filter: brightness(150%);
+}
+.block_bottom_news{
+	margin-top: 40px;
+}
+.img_6{
+    width: 250px;
+    height: 150px;
+    border-radius: 3px;
+}
+.big_text_in_bottom_block{
+	color: white;
+}
+.small_text_in_bottom_block{
+	color: #646365;
+	filter: brightness(150%);
+}
+.btn__bot{
+	background: #2f3541;
+	cursor: pointer;
+	color: white;
+	padding: 10px;
+	margin-left: 10px;
+}
+.data_post_bottom{
+	color: #646365;
+	filter: brightness(150%);
+	float: right;
+	margin-right: 10px;
+}
+.bottom_news{
+	display: flex;
 }
