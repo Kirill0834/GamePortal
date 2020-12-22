@@ -34,7 +34,7 @@
 }
 .features__block{
 	background: #292e38;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -109,14 +109,13 @@ nav{
 .latest_news{
 	padding-top: 50px;
 }
-.news{
-	display: flex;
-	
-}
 .lest_news_block{
 	/*width: 580px;*/
-	background: #292e38;
 	display: flex;
+	background: #292e38;
+}
+.latest_news .container{
+	background: #292e38;
 }
 .img_1{
 	width: 100px;
@@ -140,7 +139,6 @@ nav{
 }
 .right_news_block{
 	/*width: 500px;*/
-	background: #292e38;
 }
 .img_5{
 	width: 500px;
@@ -157,6 +155,12 @@ nav{
 .block_bottom_news{
 	margin-top: 40px;
 }
+
+.block_bottom_news img{
+	width: 250px;
+	height: 150px;
+}
+
 .img_6{
     width: 250px;
     height: 150px;
@@ -173,8 +177,11 @@ nav{
 	background: #2f3541;
 	cursor: pointer;
 	color: white;
-	padding: 10px;
-	margin-left: 10px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	outline: 0;
 }
 .data_post_bottom{
 	color: #646365;
@@ -182,6 +189,54 @@ nav{
 	float: right;
 	margin-right: 10px;
 }
-.bottom_news{
+/*.bottom_news{*/
+/*	display: flex;*/
+/*}*/
+.latest_posts{
+	margin-top: 20px;
+}
+.img_8{
+	border-radius: 3px;
+}
+.big_text_in_posts_block{
+	width: 300px;
+	color: white;
+}
+.small_text_in_posts_block{
+	color: #646365;
+	filter: brightness(150%);
+}
+span{
+	color: red;
+}
+.text_post{
+	color: #646365;
+    filter: brightness(150%);
+    font-size: 12px;
+}
+.social_icons{
+	width: 350px;
+	height: 250px;
+	background: #2f3541;
+}
+.btn_icons_posts{
+	background-color: #292e38;
+	width: 87.5px;
+	height: 85px;
+}
+.btn_icons_posts_2{
+	background: #363d4a;
+	width: 87.5px;
+	height: 85px;
+}
+.block_social{
 	display: flex;
+}
+.img_9{
+}
+.block_social_2{
+	display: flex;
+}
+h1{
+	color: white;
 }
