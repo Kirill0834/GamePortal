@@ -240,3 +240,57 @@ span{
 h1{
 	color: white;
 }
+.btn__bot{
+	margin-bottom: 30px;
+}
+.small_text_in_matches_block{
+	color: #646365;
+	filter: brightness(150%);
+	width: 200px;
+}
+.btn__bot2{
+	background: #dd163b;
+	cursor: pointer;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	outline: 0;
+}
+.block_bottom_matches{
+	background: #292e38;
+	margin-top: 50px;
+	height: 170px;
+}
+.big_text_in_matches_block{
+	color: white;
+	font-size: 20px;
+
+}
+.big_text_matches_block{
+	text-align: center;
+	font-size: 16px;
+}
+.data-matches{
+	color: white;
+	text-align: center;
+
+}
+.btn__bot3{
+	background: #e2361f;
+	cursor: pointer;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	outline: 0;
+	display: flex;
+	margin-left: 330px;
+	margin-top: 15px;
+}
+.big_text_in_matches_block2{
+	float: right;
+	font-size: 20px;
+}
