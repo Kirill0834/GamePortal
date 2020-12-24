@@ -10,12 +10,6 @@
 .social__links .btn-icon img{
 	width: 30px;
 }
-.user__menu{
-	max-width: 400px;
-	text-align: right;
-	display: flex;
-	padding: 0 15px;
-}
 .btn-icon{
 	padding: 0 5px;
 	background-color: #d1c9cb;
@@ -51,8 +45,9 @@
 	font-size: 25px;
 }
 .main__menu{
-	background: #070607;
+	    background: rgb(7 6 7 / 50%);
 	height: 120px;
+	margin-bottom: 50px;
 }
 .favicon{
 	margin-top: 40px;
@@ -286,11 +281,69 @@ h1{
 	border-radius: 5px;
 	font-weight: bold;
 	outline: 0;
-	display: flex;
-	margin-left: 330px;
 	margin-top: 15px;
 }
 .big_text_in_matches_block2{
 	float: right;
 	font-size: 20px;
+}
+.twitch{
+	display: flex;
+}
+.text_matches{
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+    justify-content: space-around;
+    padding-right: 15px;
+    align-items: flex-start;
+}
+.block_bottom_matches{
+	display: flex;
+	align-items: center;
+	    justify-content: space-around;
+}
+.text_matches2{
+	text-align: center;
+}
+.social__links svg {
+    width: 10px;
+}
+.social__links a {
+    color: black;
+    background: grey;
+    padding: 2px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.nk-social-links{
+	display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nk-social-links li{
+	padding-right: 5px;
+}
+.nk-contacts-icons svg{
+	width: 12px;
+}
+.nk-contacts-icons{
+	display: flex;
+	padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: flex-end;
+}
+.nk-contacts-icons li {
+    padding-left: 30px;
+}
+.nk-badge {
+    display: inline-block;
+    background: red;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 5px;
 }
