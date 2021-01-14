@@ -1,6 +1,9 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 }
+*,::after, ::before{
+	box-sizing: border-box;
+}
 .menu__top{
 	padding-bottom: 20px;
 	padding-top: 15px;
@@ -520,4 +523,19 @@ h1{
 }
 .menu-top li:hover > .dropdown{
 	visibility: visible;
+}
+.heading{
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 30px 0;
+	color: #fff;
+	font-weight: bold;
+}
+.heading::before{
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	left: 0;
+	top: 40px;
 }
