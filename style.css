@@ -243,16 +243,45 @@ span{
 	justify-content: center;
 	align-items: center;
 }
-.btn_icons_posts_2{
+/*.btn_icons_posts_2{*/
+/*	display: flex;*/
+/*	justify-content: center;*/
+/*	align-items: center;*/
+/*}*/
+/*.img_9{*/
+/*}*/
+/*.block_social_2{*/
+/*	display: flex;*/
+/*}*/
+
+.social_icon_btn svg {
+	width: 20px;
+}
+
+.social_icons_content {
+	color: white;
 	display: flex;
-	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.social_icon_btn {
+	flex: 1 0 25%;
+	height: 88px;
+	display: flex;
 	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-color: #292e38;
 }
-.img_9{
+
+.social_icon_btn:nth-child(odd) {
+	background-color: #363d4a;
 }
-.block_social_2{
-	display: flex;
+
+.social_icon_btn:hover {
+	background-color: #5c43a1;
 }
+
 h1{
 	color: white;
 }
