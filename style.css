@@ -274,13 +274,16 @@ span{
 	width: 20px;
 }
 
-.social_icons_content {
+.sidebar .social__links ul{
 	color: white;
 	display: flex;
 	flex-wrap: wrap;
+	padding: 0;
 }
-
-.social_icon_btn {
+.sidebar .social__links {
+	display: block;
+}
+.sidebar .social__links ul li{
 	flex: 1 0 25%;
 	height: 88px;
 	display: flex;
@@ -387,6 +390,28 @@ h1{
     display: inline-flex;
     justify-content: center;
     align-items: center;
+	transition: background-color 0.5s;
+}
+.social__links li:nth-child(1):hover a{
+	background-color: orangered;
+}
+.social__links li:nth-child(2):hover a{
+	background-color: #5c43a1;
+}
+.social__links li:nth-child(3):hover a{
+	background-color: black;
+}
+.social__links li:nth-child(4):hover a{
+	background-color: blue;
+}
+.social__links li:nth-child(5):hover a{
+	background-color: red;
+}
+.social__links li:nth-child(6):hover a{
+	background-color: deepskyblue;
+}
+.social__links li:nth-child(7):hover a{
+	background-color: firebrick;
 }
 .nk-social-links{
 	display: flex;
