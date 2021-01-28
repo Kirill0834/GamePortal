@@ -4,11 +4,7 @@
 
 body{
 	margin: 0;
-	background-color: #181c23;
-	background-image: url(images/bg-top.png);
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	background-position: top center;
+	
 	font-family: Roboto;
 }
 a{

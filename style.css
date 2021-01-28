@@ -1,5 +1,10 @@
 body{
 	font-family: 'Montserrat', sans-serif;
+	background: url(images/bg-top.png), url(./images/bg-bottom.png);
+	background-color: #181c23;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 100% auto, 100% auto;
+	background-position: top center, bottom center;
 }
 *,::after, ::before{
 	box-sizing: border-box;
@@ -181,6 +186,17 @@ nav{
 	border-radius: 5px;
 	font-weight: bold;
 	outline: 0;
+}
+.contact-form .btn__bot{
+	background: white;
+	cursor: pointer;
+	color: #181c23;;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	outline: 0;
+	text-transform: uppercase;
 }
 .data_post_bottom{
 	color: #646365;
@@ -425,6 +441,11 @@ h1{
 .pos_2{
 	color: #181c23;
 }
+.pictures img{
+	width: 200px;
+    height: 200px;
+    border-radius: 3px;
+}
 .pictures{
 	display: flex;
 	justify-content: space-between;
@@ -435,9 +456,7 @@ h1{
 	height: 200px;
 	border-radius: 3px;
 }
-.pictures2{
-	display: flex;
-	justify-content: space-between;
+.pictures:last-child{
 	margin-top: 50px;
 }
 .block_pictures2{
@@ -722,11 +741,6 @@ h1{
     width: 15px;
     align-items: center;
 }
-.img-16{
-	width: 200px;
-    height: 200px;
-    border-radius: 3px;
-}
 .text-footer-right{
 	color: #fff;
 	font-size: 15px;
@@ -756,4 +770,37 @@ h1{
 .text-twit-a{
 	font-size: 15px;
 	padding-left: 35px;
+}
+.textarea textarea{
+    width: 100%;
+    background: none;
+    border-radius: 4px;
+    border: 1px solid #313947;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 120px;
+    min-height: 120px;
+    font-size: 16px;
+    color: white;
+    padding: 7px 10px;
+    font-family: Open Sans;
+}
+.textarea textarea:focus,
+.input input:focus{
+	outline: 0;
+	border: 1px solid red;
+	transition: 0.4s;
+}
+.input input{
+	width: 100%;
+    background: none;
+    border-radius: 4px;
+    border: 1px solid #313947;
+    font-size: 16px;
+    color: white;
+    font-family: Open Sans;
+    padding: 7px 10px;
+}
+.contact-form .row{
+	margin-bottom: 15px;
 }
