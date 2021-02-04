@@ -886,3 +886,60 @@ h1{
 .contact-form .row{
 	margin-bottom: 15px;
 }
+
+.left_news {
+	/* overflow: scroll; */
+	max-height: 490px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.right_news_block {
+	overflow-y: auto;
+	max-height: 490px;
+}
+
+.picture {
+	position: relative;
+}
+
+.picture-comments {
+	color: black;
+	position: absolute;
+	background: white;
+	right: 15px;
+	bottom: 15px;
+	width: 32px;
+	height: 28px;
+	display: flex;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.picture-comments:before {
+	content: "";
+	width: 10px;
+	height: 10px;
+	border: 5px solid transparent;
+	border-right: 8px solid white;
+	position: absolute;
+	/*bottom: -1px;*/
+	/*right: 3px;*/
+	transform: translate(7px, 9px);
+}
+
+.picture-container img {
+	width: 100%;
+	transition: transform 0.2s ease;
+}
+
+.picture:hover .picture-container img {
+	transform: scale(1.05);
+}
+
+.picture-container {
+	overflow: hidden;
+	border-radius: 3px;
+}
