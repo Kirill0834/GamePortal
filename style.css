@@ -413,6 +413,9 @@ h1{
 .social__links li:nth-child(7):hover a{
 	background-color: firebrick;
 }
+.social__links li:nth-child(8):hover a{
+	background-color: #F08A5D;
+}
 .nk-social-links{
 	display: flex;
     margin: 0;
