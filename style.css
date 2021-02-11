@@ -34,7 +34,9 @@ body{
 	justify-content: space-between;
 	text-align: justify;
 	text-justify: newspaper;
-	margin-top: 50px;
+	margin-top: 34px;
+	/* margin-right: -1px; */
+	margin-left: 7px;
 }
 .features__block{
 	background: #292e38;
@@ -57,7 +59,7 @@ body{
 .main__menu{
 	    background: rgb(7 6 7 / 50%);
 	height: 120px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 .favicon{
 	margin-top: 40px;
@@ -109,6 +111,8 @@ nav{
 }
 .main__menu_1{
 	display: flex;
+	margin-top: -32px;
+	margin-right: -3px;
 }
 .latest_news{
 
@@ -137,6 +141,9 @@ nav{
 	white-space: nowrap;
 	overflow: hidden;*/
 }
+.block_latest_posts {
+	margin-top: -18px;
+}
 .data_post{
 	color: #646365;
 	filter: brightness(150%);
@@ -157,7 +164,7 @@ nav{
 	filter: brightness(150%);
 }
 .block_bottom_news{
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 .block_bottom_news img{
@@ -358,6 +365,7 @@ h1{
 }
 .twitch{
 	display: flex;
+	margin-top: -15px;
 }
 .text_matches{
 	display: flex;
@@ -418,8 +426,12 @@ h1{
 }
 .nk-social-links{
 	display: flex;
-    margin: 0;
-    padding: 0;
+	margin: 12px;
+	/* margin-bottom: -53px; */
+	padding: 0px;
+	margin-right: 0px;
+	margin-left: 11px;
+	margin-top: -2px;
 }
 .nk-social-links li{
 	padding-right: 5px;
@@ -605,6 +617,7 @@ h1{
 }
 .menu-top{
 	margin-right: 0;
+	padding-top: 38px;
 }
 .menu-top .dropdown{
 	flex-direction: column;
@@ -769,7 +782,7 @@ h1{
 }
 .most_popular{
 	width: auto;
-	height: 650px;
+	height: 560px;
 	background: #2f3541;
 	margin-top: 150px;
 }
@@ -889,14 +902,14 @@ h1{
 
 .left_news {
 	/* overflow: scroll; */
-	max-height: 490px;
+	max-height: 422px;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
 
 .right_news_block {
 	overflow-y: auto;
-	max-height: 490px;
+	max-height: 422px;
 }
 
 .picture {
