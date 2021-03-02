@@ -1,0 +1,184 @@
+.root_text{
+	padding: 20px;
+}
+.hr-line {
+	position: relative;
+    height: 5px;
+	border: none;
+	border-top: 1px solid #e6ecf0;
+    width: 100vw;
+    height: 5px;
+}
+.icons{
+	display: flex;
+}
+.fa-html5{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.text-icons{
+	color: #393f49;
+	padding-top: 25px;
+	font-size: 14px;
+}
+.fa-html5:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.yay-label{
+	display: block;
+    height: auto;
+    padding: 11px 15px;
+    font-size: 12px;
+    line-height: normal;
+    color: #bcbec0;
+    text-transform: none;
+    opacity: 1;
+    margin-left: 10px;
+}
+.fa-home{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-home:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.fa-telegram-plane{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-telegram-plane:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.fa-comment{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-comment:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.fa-calendar-week{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-calendar-week:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.fa-book{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-book:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.fa-file{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-file:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.fa-user{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-user:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.fa-th-large{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-th-large:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.fa-tint{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-tint:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.fa-typography{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-typography:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.fa-tables{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-tables:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.fa-base{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-base:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
+.fa-advanced{
+	width: 16px;
+	height: 16px;
+	padding: 25px;
+}
+.fa-advanced:hover{
+    color: #bcbec0;
+    -webkit-transition: color .1s;
+    -o-transition: .1s color;
+    transition: color .1s;
+}
